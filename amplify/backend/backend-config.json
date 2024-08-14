@@ -1,0 +1,50 @@
+{
+  "api": {
+    "apif71f105f": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "forextrackere063ccce"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "forextrackere063ccce": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_forextrackere063ccce_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "forextrackere063ccce"
+        }
+      ]
+    },
+    "AMPLIFY_function_forextrackere063ccce_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "forextrackere063ccce"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-forextracker-dev-727a1-authRole",
+      "UnauthRoleArn": "arn:aws:iam::026090545219:role/amplify-forextracker-dev-727a1-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::026090545219:role/amplify-forextracker-dev-727a1-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-forextracker-dev-727a1-deployment",
+      "UnauthRoleName": "amplify-forextracker-dev-727a1-unauthRole",
+      "StackName": "amplify-forextracker-dev-727a1",
+      "StackId": "arn:aws:cloudformation:eu-north-1:026090545219:stack/amplify-forextracker-dev-727a1/8368e4d0-5a5e-11ef-92f5-06ca3878648b",
+      "AmplifyAppId": "d2hxrvd9ig40e5"
+    },
+    "categories": {
+      "function": {
+        "forextrackere063ccce": {
+          "deploymentBucketName": "amplify-forextracker-dev-727a1-deployment",
+          "s3Key": "amplify-builds/forextrackere063ccce-556c37556b4177517a56-build.zip"
+        }
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      },
+      "api": {
+        "apif71f105f": {}
+      }
+    }
+  }
+}
